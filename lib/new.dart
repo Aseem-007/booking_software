@@ -9,6 +9,14 @@ class NewTask extends StatelessWidget {
       body: Column(
         children: [
           Text('NEW TASK'),
+          Text('NEW TASK'),
+          Text('SECOND  TASK'),
+          Text('dsfjhgh TASK'),
+          Text('SECOND  TASK'),
+          Text('NEW TASK'),
+          Text('csd  TASK'),
+          Text('NEW TASK'),
+          Text('SECOND  TASK'),
           Text('SECOND  TASK'),
         ],
       ),
