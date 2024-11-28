@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:makemeover/new.dart';
 import 'package:makemeover/widgets/artistCard.dart';
 import './widgets/serviceCard.dart';
 
@@ -29,7 +30,10 @@ class HomePage extends StatelessWidget {
             Row(
               children: [
                 IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => NewTask()));
+                  },
                   icon: const Icon(
                     Icons.menu,
                   ),
