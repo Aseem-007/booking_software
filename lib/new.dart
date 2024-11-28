@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 class NewTask extends StatelessWidget {
@@ -8,7 +6,12 @@ class NewTask extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Text('NEW TASK'),
+      body: Column(
+        children: [
+          Text('NEW TASK'),
+          Text('SECOND  TASK'),
+        ],
+      ),
     );
   }
 }
