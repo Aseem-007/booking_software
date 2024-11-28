@@ -18,6 +18,10 @@ class NewTask extends StatelessWidget {
           Text('NEW TASK'),
           Text('SECOND  TASK'),
           Text('SECOND  TASK'),
+          Text('weffwe  TASK'),
+          Text('wseff  TASK'),
+          Text('werfw  TASK'),
+          Text('SECOrewND  TASK'),
         ],
       ),
     );
